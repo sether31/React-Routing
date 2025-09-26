@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+
+@layer {
+  .container-xl {
+    @apply w-full px-4 mx-auto max-w-7xl;
+  }
+
+  .active {
+    @apply px-4 py-2 text-white bg-blue-500 border border-blue-500 rounded-sm;
+  }
+}
