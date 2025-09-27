@@ -1,5 +1,6 @@
 // layouts/RootLayout.jsx
 import { NavLink, Outlet } from "react-router-dom";
+import BreadCrumbs from "../components/breadCrumbs";
 
 export default function RootLayout() {
   return (
@@ -21,7 +22,8 @@ export default function RootLayout() {
           </NavLink>
         </nav>
       </header>
-      <main className="container-xl">
+      <main className="container-xl mt-22">
+        <BreadCrumbs />
         <Outlet />
       </main>
     </>
