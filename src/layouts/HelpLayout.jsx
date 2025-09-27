@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 function HelpLayout() {
   return (
-    <section className="mt-22">
+    <section>
       <h1 className="mt-4 text-3xl">Help Page</h1>
       
       <nav className="flex justify-center gap-2 mt-8">
