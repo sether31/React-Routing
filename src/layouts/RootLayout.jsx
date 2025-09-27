@@ -16,6 +16,9 @@ export default function RootLayout() {
           <NavLink to="help" className={({ isActive }) => isActive ? 'active' : 'border border-black px-4 py-2'}>
             Help
           </NavLink>
+           <NavLink to="careers" className={({ isActive }) => isActive ? 'active' : 'border border-black px-4 py-2'}>
+            Career
+          </NavLink>
         </nav>
       </header>
       <main className="container-xl">
