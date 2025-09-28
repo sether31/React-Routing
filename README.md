@@ -1,16 +1,41 @@
-# React + Vite
+# React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Learning react router
 
-Currently, two official plugins are available:
+## Summary
+- createBrowserRouter & RouterProvider: Set up routing
+- useRouterError & errorElement: Show error messages
+- Navigation, Link & NavLink: Navigate between pages
+- Loaders & useLoaderData: Load data for a route
+- Form, Action & useActionData: Submit + handle form data
+- Redirect: Navigate after form or auth
+- useLocation: lets you access the current location object.
+- Outlet: Render child routes inside parent
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## React Compiler
+#### 1. **Clone the repository:**
+```cmd
+git clone https://github.com/sether31/React-Routing.git
+```
+#### 2. **Install dependencies**
+```cmd
+npm install
+```
+#### 3. **Start the JSON server**
+```
+json-server -p 4000 -w ./data/db.json
+```
+#### 4. **Run development server**
+```
+npm run dev
+```
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+#### Frontend
+  + HTML
+  + Tailwind CSS (CSS Framework)
+  + React with vite
+  + React Router Dom
+  + NPM
