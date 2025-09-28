@@ -8,7 +8,7 @@ import CareerLayout from "./layouts/CareerLayout";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Faq from "./pages/help/faq";
-import Contact from "./pages/help/contact";
+import Contact, { contactAction } from "./pages/help/contact";
 import ErrorPage from "./pages/errorPage";
 import Career, { careerLoader } from "./pages/career/career";
 import CareerDetails, { careerDetailsLoader } from "./pages/career/careerDetails";
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <HelpLayout />,
         children: [
           { path: "faq", element: <Faq/> },
-          { path: "contact", element: <Contact/> },
+          { path: "contact", element: <Contact/>, action: contactAction },
         ]
        },
        {
